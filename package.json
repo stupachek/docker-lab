@@ -1,0 +1,13 @@
+{
+    "name": "my first nodejs app",
+    "version": "1.0.0",
+    "description": "create a dockerfile on Nodejs project",
+    "author": "stupachek",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}
