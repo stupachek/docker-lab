@@ -1,13 +1,23 @@
 {
-    "name": "my first nodejs app",
-    "version": "1.0.0",
-    "description": "create a dockerfile on Nodejs project",
-    "author": "stupachek",
-    "main": "app.js",
-    "scripts": {
-        "start": "node app.js"
-    },
-    "dependencies": {
-        "express": "^4.16.1"
-    }
+  "name": "docker-lab",
+  "version": "1.0.0",
+  "description": "Dockerizing a Node.js web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stupachek/docker-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stupachek/docker-lab/issues"
+  },
+  "homepage": "https://github.com/stupachek/docker-lab#readme",
+  "devDependencies": {
+    "eslint": "8.29.0"
+  }
 }
