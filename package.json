@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Dockerizing a Node.js web app",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/stupachek/docker-lab#readme",
   "devDependencies": {
     "eslint": "8.29.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }

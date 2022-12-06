@@ -1,5 +1,5 @@
 'use strict';
-const express = require('express');
+import express from 'express';
 // Constants
 const HOST = '0.0.0.0';
 const PORT = 80;
