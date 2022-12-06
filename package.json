@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "parserOptions": {
+    "sourceType": "module",
   }
 }
