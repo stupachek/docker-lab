@@ -19,7 +19,7 @@ jobs:
     - name: Push to docker hub
       uses: docker/build-push-action/@v1
       with:
-        username: ${{labs.DOCKER_USERNAME}}
-        password: ${{labs.DOCKER_PASSWORD}}
-        repository: ${{labs.DOCKERHUB_REPO}}
+        username: ${{secrets.DOCKER_USERNAME}}
+        password: ${{secrets.DOCKER_PASSWORD}}
+        repository: ${{secrets.DOCKERHUB_REPO}}
         tag_with_ref: true
